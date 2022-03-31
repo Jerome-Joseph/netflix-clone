@@ -5,9 +5,8 @@
 .profile__body{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+    margin: auto;
     padding: 8%;
     max-width: 800px;
 }
@@ -71,4 +70,12 @@
 }
 .plans__disable > button{
     background-color: grey !important;
+}
+
+
+@media screen and (max-width:500px) {
+    .profile__plans{
+        margin-top: 70px;
+        margin-left: -120px;
+    }
 }
